@@ -2,7 +2,7 @@ import os
 import telebot
 
 
-API_KEY = '5481337526:AAGzYuywK-lE8LGYfeRgwVOlnwrKlMpx9xw'
+API_KEY = ----------------------bot-api-key-----------------------------
 bot = telebot.TeleBot(API_KEY)
 
 @bot.message_handler(commands=['yo'])
